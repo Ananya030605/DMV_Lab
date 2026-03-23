@@ -6,7 +6,7 @@ import seaborn as sns
 # -------------------------------
 # 1. Load Dataset
 # -------------------------------
-df = pd.read_csv("data.csv", sep="\t")
+df = pd.read_csv("data.csv", sep=",")
 
 print("Original Dataset:\n", df.head())
 print(df.columns)
